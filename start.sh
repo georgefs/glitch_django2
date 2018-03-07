@@ -25,5 +25,5 @@ pip install -r requirements.txt
 
 python3 src/manage.py migrate
 # Run a glorious Python 3 server
-python3 src/manage.py runserver 8001
+python3 src/manage.py runserver 0.0.0.0:8000
 
